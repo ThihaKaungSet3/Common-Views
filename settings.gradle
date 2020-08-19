@@ -1,0 +1,7 @@
+include ':utils'
+include ':textview'
+include ':shrink'
+include ':bottomnavigation'
+include ':roundedviews'
+include ':app'
+rootProject.name = "Common Views"

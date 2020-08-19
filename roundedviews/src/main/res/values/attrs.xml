@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundedTextView">
+        <attr name="corner_radius" format="dimension"/>
+        <attr name="top_left_corner_radius" format="dimension"/>
+        <attr name="top_right_corner_radius" format="dimension"/>
+        <attr name="bottom_right_corner_radius" format="dimension"/>
+        <attr name="bottom_left_corner_radius" format="dimension"/>
+        <attr name="padding_left_and_right" format="dimension"/>
+        <attr name="padding_top_and_bottom" format="dimension"/>
+        <attr name="shape_background_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundedButton">
+        <attr name="button_corner_radius" format="dimension"/>
+        <attr name="button_top_left_corner_radius" format="dimension"/>
+        <attr name="button_top_right_corner_radius" format="dimension"/>
+        <attr name="button_bottom_right_corner_radius" format="dimension"/>
+        <attr name="button_bottom_left_corner_radius" format="dimension"/>
+        <attr name="button_shape_background_color" format="color"/>
+        <attr name="button_padding" format="dimension"/>
+        <attr name="shrinkValue" format="float"/>
+        <attr name="isShrinkEnabled" format="boolean"/>
+    </declare-styleable>
+</resources>
